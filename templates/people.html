@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+    <h1>REGISTERED</h1><br>
+    <ol>
+        {% for people in registered%}
+            <li>{{ people }}</li>
+        {% endfor %}
+    </ol>
+{% endblock %}
