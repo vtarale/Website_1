@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block body %}
+<form action="/deregister" method="post">
+    <input type="text" autocomplete="off" autofocus name="account" placeholder="Account name">
+    <input type="password" autocomplete="off" autofocus name="password" placeholder="Password">
+    <input type="submit" val="deregister">
+</form>
+{% endblock %}
