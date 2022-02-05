@@ -7,3 +7,5 @@ It's a website for registering people and deregistering people
 ## Run
 export FLASK_APP=app.py
 flask run
+## LICENSE
+[apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
