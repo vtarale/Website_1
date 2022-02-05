@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+    <h1>WELCOME</h1>
+    <h2>to register</h2>
+    <form action="/register1" method="get">
+        <input type="submit" value="register">
+    </form>
+    <h2>to deregister</h2>
+    <form action="/deregister1" method="post">
+        <input type="submit" value="deregister">
+    </form>
+    <h2>REGISTERED</h2>
+    <form action="/people" method="get">
+        <input type="submit" value="check">
+    </form>
+{% endblock %}
